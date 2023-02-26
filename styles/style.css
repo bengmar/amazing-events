@@ -1,134 +1,148 @@
 * {
-    box-sizing: border-box;
-    margin:0px;
-    padding:0px;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    background-color: rgb(89,31,28);
+body {
+  background-color: rgb(89, 31, 28);
 }
 
 .container-header {
-    border:1px solid rgb(196,171,129);
-    border-radius: 5px;
-    background-color: rgb(61,24,24);;
-    padding: 2px;
-    margin:5px 5px 0px;
+  border: 1px solid rgb(196, 171, 129);
+  border-radius: 5px;
+  background-color: rgb(61, 24, 24);
+  padding: 2px;
+  margin: 5px 5px 0px;
 }
 
-.page{
-    padding:20px;
-    background-color: rgb(85,39,30);
-    color:rgb(196,171,129);
-    margin:0px 5px 5px;
+.page {
+  padding: 20px;
+  background-color: rgb(85, 39, 30);
+  color: rgb(196, 171, 129);
+  margin: 0px 5px 5px;
 }
 
-nav>a, .details {
-    border: 1px solid rgb(196,171,129);
-    border-radius: 18px;
-    padding:8px 10px;
-    margin:3px;
-    color:rgb(196,171,129);
-    background-color: rgb(67,30,24);
-    text-decoration: none;
+.details {
+  border: 1px solid rgb(196, 171, 129);
+  border-radius: 18px;
+  padding: 8px 10px;
+  margin: 3px;
+  color: rgb(196, 171, 129);
+  background-color: rgb(67, 30, 24);
+  text-decoration: none;
 }
 
-.logo{
-   height: 90px;
-   width: auto;
+.logo {
+  height: 90px;
+  width: auto;
 }
 
 .title {
-    text-align: center;
+  text-align: center;
+}
+
+.special-title {
+  color: rgb(196, 171, 129);
+  text-decoration: none;
 }
 
 .formularysearch {
-    padding:15px 5px;
-    margin:15px;
+  padding: 15px 5px;
+  margin: 15px;
 }
-
 
 .mycards {
-    margin:30px 10px 60px;
-}
- .mycheckbox {
-    padding:10px 30px;
-    color:rgb(196,171,129);
- }
-
- .card {
-    background-color: rgb(61,24,24);
-    color:rgb(218,210,210);
- }
-
- footer {
-    margin: 5px;
-    background-color: rgb(61,24,24);
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding:5px;
+  margin: 30px 10px 60px;
 }
 
- 
-.form-control, .btn {
-    background-color:rgb(61,24,24) ;
-    border-color: rgb(196,171,129);
-    color:rgb(196,171,129);
+.mycheckbox {
+  padding: 10px 30px;
+  color: rgb(196, 171, 129);
 }
 
 .card {
-    border: 1px solid rgb(196,171,129);
+  background-color: rgb(61, 24, 24);
+  color: rgb(218, 210, 210);
+  border: 1px solid rgb(196, 171, 129);
+}
+
+footer {
+  margin: 5px;
+  background-color: rgb(61, 24, 24);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.form-control,
+.btn {
+  background-color: rgb(61, 24, 24);
+  border-color: rgb(196, 171, 129);
+  color: rgb(196, 171, 129);
 }
 
 .card-img-top {
-    margin:5px;
-    height: 50%;
-    width: auto;
-    border:1px solid rgb(196,171,129) ;
+  margin: 1px;
+  border: 1px solid rgb(196, 171, 129);
+  height: 50%;
+  width: auto;
 }
 
-.price, .card-title{
-    text-align: center;
-    padding:5px;
-    color: rgb(196,171,129);
-
+.price,
+.card-title {
+  text-align: center;
+  padding: 5px;
+  color: rgb(196, 171, 129);
 }
 
 .form-text {
-    padding:5px;
-    color: rgb(196,171,129);
-    margin: 150px 0px;
+  padding: 5px;
+  color: rgb(196, 171, 129);
+  margin: 150px 0px;
 }
 
-nav>a:hover, .details:hover,.btn-outline-success:hover, .active {
-    color:rgb(61,24,24);
-    background-color: rgb(196,171,129);
-    border:1px solid rgb(61,24,24);
-
+.details:hover,
+.btn-outline-success:hover,
+.active {
+  color: rgb(61, 24, 24);
+  background-color: rgb(196, 171, 129);
+  border: 1px solid rgb(61, 24, 24);
 }
-
-
 
 .redes {
-    height: 50px;
-    margin:5px;
-    padding:10px;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
 }
 
-table{
-    width: 100%;
-    margin:15px 5px;
+table {
+  width: 100%;
+  margin: 15px 5px;
 }
 
-th, td,tr {
-    border: 1px solid rgb(196,171,129) ;
-    padding: 15px;
-    color:rgb(196,171,129);
+th,
+td,
+tr {
+  border: 1px solid rgb(196, 171, 129);
+  padding: 15px;
+  color: rgb(196, 171, 129);
 }
 
-caption{
-    background-color: rgb(196,171,129) ;
-    padding:10px;
+caption {
+  background-color: rgb(196, 171, 129);
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 14rem;
+    height: auto;
+  }
+  footer{
+    display:flex;
+    justify-content: center;
+  }
 }

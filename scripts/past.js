@@ -480,7 +480,7 @@ function crearTarjetas(arrayData) {
     if(currentDate > event.date){
     tarjetas += `<div class="col">
         <div class="card text-center h-100">
-          <img src="${event.image}" alt="photo" />
+          <img class="card-img-top" src="${event.image}" alt="photo" />
           <div class="card-body">
             <h5 class="card-title">${event.name}</h5>
             <p class="card-text">
